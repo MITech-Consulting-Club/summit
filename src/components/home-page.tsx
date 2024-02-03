@@ -12,7 +12,7 @@ import {
 import { Button } from "@/components/ui/button";
 import Hero from "./Hero";
 import Overview from "./sections/Overview";
-import Faq from "./sections/faq";
+import Faq from "./sections/Faq";
 import Schedule from "./sections/Schedule";
 import Competitions from "./sections/Competitions";
 import Speakers from "./sections/Speakers";
