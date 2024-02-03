@@ -3,23 +3,24 @@ import React from "react";
 const Overview = () => {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-[#f7f1fe] dark:bg-[#411972]">
-      <div className="container px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-[#debdff] px-3 py-1 text-sm text-[#411972] dark:bg-[#9e3ffd] dark:text-[#f7f1fe]">
-              Event Overview
-            </div>
-            <h2 className="text-3xl font-bold tracking-tighter text-[#411972] dark:text-[#debdff] sm:text-4xl">
-              Learn about the Tech SumMIT 2024, its goals, and what makes it
-              unique.
+      <div className="container mx-auto px-4">
+        <div className="flex flex-row lg:flex-row md: flex-col items-center justify-between">
+          <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
+            <img
+              src="https://images.unsplash.com/photo-1593642632822-9a4b3b1f6c2d?auto=format&fit=crop&w=800&q=80"
+              alt="About Us Img"
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+          <div className="w-full lg:w-1/2">
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#411972] dark:text-[#f7f1fe]">
+              About Us
             </h2>
-            <p className="max-w-[600px] text-[#411972] md:text-xl dark:text-[#debdff]">
-              The Tech SumMIT 2024 is a premier event for technology
-              enthusiasts, professionals, and students. It&apos;s a platform to
-              learn about the latest trends in technology, network with industry
-              leaders, and participate in exciting competitions. The event will
-              feature keynote speeches, panel discussions, workshops, and much
-              more.
+            <p className="text-lg lg:text-xl mt-4 text-[#411972] dark:text-[#f7f1fe]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              vehicula auctor neque, sit amet ultrices sem lacinia nec. Donec
+              venenatis, metus sit amet tincidunt volutpat, justo libero
+              fermentum odio, ac scelerisque odio metus et nisl.
             </p>
           </div>
         </div>
